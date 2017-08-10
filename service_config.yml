@@ -1,1 +1,19 @@
 abc: "hello world"
+
+---
+
+spring:
+  profiles: dev
+abc: "hello world dev"
+
+---
+
+spring:
+  profiles: test
+abc: "hello world test"
+
+---
+
+spring:
+  profiles: prod
+abc: "hello world prod"
