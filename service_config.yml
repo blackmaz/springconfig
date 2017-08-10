@@ -3,17 +3,17 @@ abc: "hello world"
 ---
 
 spring:
-  profiles: dev
+  profiles: "dev"
 abc: "hello world dev"
 
 ---
 
 spring:
-  profiles: test
+  profiles: "test"
 abc: "hello world test"
 
 ---
 
 spring:
-  profiles: prod
+  profiles: "prod"
 abc: "hello world prod"
